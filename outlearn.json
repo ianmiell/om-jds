@@ -6,7 +6,7 @@
       "name" : "my-outlearn-path",
       "title" : "Introduction to Docker 1.10 features",
       "description" : "See the key features of the latest release of Docker",
-      "privacy" : "public",
+      "privacy" : "private",
       "pages" : [
         {"page" : "./pages/welcome.md"},
         {"module" : "my-outlearn-module"},
