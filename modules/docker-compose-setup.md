@@ -1,9 +1,9 @@
 <!--
 {
-"name": "docker-compose-jenkins-phoenix",
+"name": "docker-compose-setup",
 "version" : "0.1",
-"title" : "Docker Compose with Jenkins Phoenix",
-"description" : "Get into Docker Compose",
+"title" : "Docker Compose Setup",
+"description" : "Get setup with Docker Compose",
 "homepage" : "https://github.com/ianmiell/outlearn-modules",
 "freshnessDate" : 2015-07-08,
 "license" : "CC BY 4.0"

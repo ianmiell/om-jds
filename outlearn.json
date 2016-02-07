@@ -16,7 +16,10 @@
   ],
 
   "modules" : [
-    {"olm" : "./modules/my-outlearn-module.md"}
+    {
+		"olm" : "./modules/docker-compose-setup.md",
+		"olm" : "./modules/docker-compose-setup.md"
+    }
   ],
 
   "assets" : [
