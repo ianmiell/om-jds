@@ -3,9 +3,9 @@
 
   "paths" : [
     {
-      "name" : "my-outlearn-path",
-      "title" : "Introduction to Docker 1.10 features",
-      "description" : "See the key features of the latest release of Docker",
+      "name" : "docker-compose-jenkins-phoenix",
+      "title" : "Introduction to Docker Compose with Jenkins",
+      "description" : "Get to grips with Docker Compose using Jenkins",
       "privacy" : "private",
       "pages" : [
         {"page" : "./pages/welcome.md"},
