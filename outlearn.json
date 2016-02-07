@@ -4,8 +4,8 @@
   "paths" : [
     {
       "name" : "my-outlearn-path",
-      "title" : "My First Outlearn Path",
-      "description" : "Fastest Way to Publish a Path",
+      "title" : "Introduction to Docker 1.10 features",
+      "description" : "See the key features of the latest release of Docker",
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
