@@ -1,20 +1,48 @@
-<!--
-{
-"name": "my-outlearn-module",
-"version" : "0.1",
-"title" : "My Outlearn Module",
-"description" : "This module will grow to be the best module ever",
-"homepage" : "https://github.com/outlearn-content/outlearn-modules",
-"freshnessDate" : 2015-07-08,
-"license" : "CC BY 4.0"
-}
--->
-
 <!-- @section -->
 
-# What is this page?
+# Docker Install
 
-This is a placeholder Learning Module for you to customize.  Look in the `my-outlearn-module.md` to see how it is coded up, and then start editing away with your own content.
+In this first part we're going to check you have the right version of Docker.
+
+At your terminal, type 
+
+```
+docker version
+```
+
+and you should get some output that looks like this:
+
+```
+Client:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5
+ Built:        Fri Nov 20 13:16:54 UTC 2015
+ OS/Arch:      linux/amd64
+
+Server:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5
+ Built:        Fri Nov 20 13:16:54 UTC 2015
+ OS/Arch:      linux/amd64
+```
+
+If you get output that looks like this:
+
+```
+docker: command not found
+```
+
+Then you need to install docker first.
+
+If your version is older than 1.8, then you may come across problems later.
+
+See [here](https://docs.docker.com/engine/installation/) for how to install the latest version of Docker.
+
+<!-- @section -->
 
 ### Using Markdown
 
