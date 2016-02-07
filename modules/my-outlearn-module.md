@@ -1,10 +1,10 @@
 <!--
 {
-"name": "my-outlearn-module",
+"name": "docker-compose-jenkins-phoenix",
 "version" : "0.1",
-"title" : "My Outlearn Module",
-"description" : "This module will grow to be the best module ever",
-"homepage" : "https://github.com/outlearn-content/outlearn-modules",
+"title" : "Docker Compose with Jenkins Phoenix",
+"description" : "Get into Docker Compose",
+"homepage" : "https://github.com/ianmiell/outlearn-modules",
 "freshnessDate" : 2015-07-08,
 "license" : "CC BY 4.0"
 }
