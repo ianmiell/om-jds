@@ -16,8 +16,7 @@
   ],
 
   "modules" : [
-    {"olm" : "./modules/docker-compose-setup.md"},
-	{"olm" : "./modules/docker-compose-setup2.md"}
+    {"olm" : "./modules/docker-compose-setup.md"}
   ],
 
   "assets" : [

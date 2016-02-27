@@ -123,61 +123,41 @@ jenkins | --> setting agent port for jnlp
 jenkins | --> setting agent port for jnlp... done
 ```
 
-When you see the last 
+When you see the last two lines you know it has started up ok.
 
+If you now navigate to http://localhost:8080 on the same machine you will be presented with your own Jenkins instance, provisioned by docker-compose!
 
-# Images and videos
+![jenkins](https://raw.githubusercontent.com/ianmiell/outlearn-modules/master/jenkins_basic.png)   
 
-You can include images using Markdown syntax.
+Take a look at the docker-compose file [here](https://raw.githubusercontent.com/ianmiell/jenkins-phoenix/1.0/docker-compose.yml)
 
-![sea](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/assets/sea.jpg)
+The first line:
 
-
-You can embed hosted videos in your paths using Outlearn @asset syntax. Here is a Vimeo video:
-
-<!-- @asset, "contentType": "outlearn/video", "provider": "vimeo", "url": "https://player.vimeo.com/video/67325705" -->
-
-And here is another one form YouTube:
-
-<!-- @asset, "contentType": "outlearn/video", "provider": "youtube", "url": "https://www.youtube.com/embed/CmjeCchGRQo" -->
-
-<!-- @section -->
-
-# Let's make our module Fancy
-
-If you want to get your audience to practice what you preach, give them a task.
-
-```python
-# Transpose a matrix:
->>> l = [[1, 2, 3], [4, 5, 6]]
->>> zip(*l)
-[(1, 4), (2, 5), (3, 6)]
-
-# Divide a list into groups of n:
->>> l = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8]
->>> zip(*[iter(l)] * 3)
-[(3, 1, 4), (1, 5, 9), (2, 6, 5), (3, 5, 8)]
+```
+jenkins:
 ```
 
-<!-- @task, "text" : "Go and run these clever code examples on your own machine, lazy bones!"-->
+defines a container that runs within this compose cluster. The next line:
 
-And if they are making something worth sharing, why not let them share it with you?
+```
+  image: jenkins
+```
 
-<!-- @task, "hasDeliverable" : true, "text" : "Write and submit a haiku about your favorite compiler."-->
+is indented, and tells docker-compose to pull down and run the default jenkins image from the Docker Hub. Next, we give the container a name when it runs:
 
-Then go ahead and test how much they know.
+```
+  container_name: jenkins
+```
 
-<!-- @multipleChoice -->
+and finally, expose the port 8080 
 
-You can add a matrix and its transpose together only if
+```
+  ports:
+    - "8080:8080"
+```
 
-- [ ] The elements of the matrix are integers
-- [ ] The matrix has an inverse
-- [X] The matrix is a square matrix
+Note: if port 8080 is used on your machine already, you may want to change the first 8080 to another port, and point your browser at that port instead.
 
-Remember that two matrices can be added if they have the same number of rows and columns.
 
 <!-- @end -->
 
-
-If you need more details on how to author, please visit the [Outlearn Publishing Guide](https://www.outlearn.com/learn/outlearn/outlearn-publishing), where you'll find more examples along with the full specification for the format used by this sample module.
