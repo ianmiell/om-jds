@@ -127,7 +127,7 @@ When you see the last two lines you know it has started up ok.
 
 If you now navigate to http://localhost:8080 on the same machine you will be presented with your own Jenkins instance, provisioned by docker-compose!
 
-![jenkins](https://raw.githubusercontent.com/ianmiell/outlearn-modules/master/jenkins_basic.png)   
+![jenkins](https://raw.githubusercontent.com/ianmiell/outlearn-modules/master/modules/jenkins_basic.png)
 
 Take a look at the docker-compose file [here](https://raw.githubusercontent.com/ianmiell/jenkins-phoenix/1.0/docker-compose.yml)
 
