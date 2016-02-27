@@ -15,7 +15,7 @@
 
 In this first part we're going to check you have the right version of Docker.
 
-At your terminal, type 
+At your terminal, type:
 
 ```
 docker version
@@ -55,20 +55,76 @@ See [here](https://docs.docker.com/engine/installation/) for how to install the 
 
 <!-- @section -->
 
-### Using Markdown
+# Docker-Compose Install
 
-You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
+Next we're going to check you have the correct version of Docker-Compose.
 
-<!-- @link, "url" : "https://help.github.com/articles/markdown-basics/", "text": "I know enough about Markdown." -->
+At your terminal, type:
 
-GitHub-flavored markdown will work just fine, and you can preview your files in your favorite text editor or Markdown preview tool before uploading them to Outlearn for final proof-reading.
+```
+docker-compose version
+```
 
-If you want to enrich your content with more features, this sample module has a few examples, including the Unfurled Link above, and the interactive features described in the next section.
+and you should get output that looks like this:
 
-> Block quotes get special styling on Outlearn. They turn into highlight boxes.
+```
+docker-compose version 1.5.2, build 7240ff3
+docker-py version: 1.5.0
+CPython version: 2.7.9
+OpenSSL version: OpenSSL 1.0.1e 11 Feb 2013
+```
+
+You should have at least version 1.5+ of docker-compose.
+
+See [here](https://docs.docker.com/compose/install/) for how to install the latest version of Docker Compose.
+
+<!-- @section -->
+
+# Get the code
+
+Now we will get the code we need to run this example.
+
+Go to an appropriate folder to download a git repository, and type:
+
+```
+git clone https://github.com/ianmiell/jenkins-phoenix
+cd jenkins-phoenix
+git checkout 1.0
+```
+
+After the last git command, you should see output similar to:
+
+```
+Switched to branch '1.0'
+```
+
+You are now ready to run your first docker-compose command!
 
 
 <!-- @section -->
+
+# Run docker-compose
+
+In the same folder as before, run:
+
+```
+docker-compose up
+```
+
+Watch the output as it builds the containers to run your Jenkins setup. At first some of it won't make sense, but it's good to watch docker-compose go through its paces.
+
+```
+Creating jenkins
+Attaching to jenkins
+jenkins | Running from: /usr/share/jenkins/jenkins.war
+jenkins | webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+[...]
+jenkins | --> setting agent port for jnlp
+jenkins | --> setting agent port for jnlp... done
+```
+
+When you see the last 
+
 
 # Images and videos
 
