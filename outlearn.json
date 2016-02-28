@@ -6,7 +6,7 @@
       "name" : "docker-compose-jenkins-phoenix",
       "title" : "Introduction to Docker Compose with Jenkins",
       "description" : "Get to grips with Docker Compose using Jenkins",
-      "privacy" : "private",
+      "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
         {"module" : "my-outlearn-module"},
