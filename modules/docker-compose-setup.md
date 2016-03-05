@@ -5,7 +5,7 @@
 "title" : "Docker Compose Setup",
 "description" : "Get setup with Docker Compose",
 "homepage" : "https://github.com/ianmiell/outlearn-modules",
-"freshnessDate" : 2015-07-08,
+"freshnessDate" : 2016-02-28,
 "license" : "CC BY 4.0"
 }
 -->
