@@ -9,7 +9,7 @@
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "my-outlearn-module"},
+        {"module" : "docker-compose-with-jenkins"},
         {"page" : "./pages/closing.md"}
       ]
     }
