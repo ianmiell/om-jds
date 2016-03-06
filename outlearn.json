@@ -18,17 +18,7 @@
 
   "modules" : [
     {"olm" : "./modules/docker-compose-setup.md"},
-    {"olm" : "./modules/docker-compose-jenkins-slave.md"},
-    {
-      "name" : "angular-tutorial",
-      "version" : "0.1",
-      "title" : "PhoneCat Tutorial App",
-      "description": "You get to build an AngularJS web app.",
-      "homepage" : "https://docs.angularjs.org/tutorial",
-      "canonicalSource" : "https://docs.angularjs.org/tutorial",
-      "freshnessDate" : 2015-06-03,
-      "license" : "CC BY"
-    }
+    {"olm" : "./modules/docker-compose-jenkins-slave.md"}
   ],
 
   "assets" : [
