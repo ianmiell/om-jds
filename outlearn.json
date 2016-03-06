@@ -9,7 +9,8 @@
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "docker-compose-with-jenkins"},
+        {"module" : "docker-compose-setup"},
+        {"module" : "a-jenkins-slave-using-docker-compose"},
         {"page" : "./pages/closing.md"}
       ]
     }
