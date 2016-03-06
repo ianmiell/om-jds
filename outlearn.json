@@ -9,8 +9,8 @@
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"page" : "./modules/docker-compose-setup.md"},
-        {"page" : "./modules/docker-compose-jenkins-slave.md"},
+        {"module" : "./modules/docker-compose-setup.md"},
+        {"module" : "./modules/docker-compose-jenkins-slave.md"},
         {"page" : "./pages/closing.md"}
       ]
     }
