@@ -9,7 +9,6 @@
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "ianmiell/docker-compose-jenkins-phoenix"},
         {"page" : "./pages/closing.md"}
       ]
     }
