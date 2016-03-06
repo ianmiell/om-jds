@@ -10,7 +10,7 @@
       "pages" : [
         {"page" : "./pages/welcome.md"},
         {"module" : "ianmiell/docker-compose-setup"},
-        {"module" : "ianmiell/docker-compose-jenkins-phoenix"},
+        {"module" : "ianmiell/outlearn-docker-compose-jenkins-slave"},
         {"page" : "./pages/closing.md"}
       ]
     }
