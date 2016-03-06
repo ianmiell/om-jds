@@ -9,16 +9,11 @@
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "docker-compose-setup"},
-        {"module" : "a-jenkins-slave-using-docker-compose"},
+        {"page" : "./modules/modules/docker-compose-setup.md"},
+        {"page" : "./modules/docker-compose-jenkins-slave.md"},
         {"page" : "./pages/closing.md"}
       ]
     }
-  ],
-
-  "modules" : [
-    {"olm" : "./modules/docker-compose-setup.md"},
-    {"olm" : "./modules/docker-compose-jenkins-slave.md"}
   ],
 
   "assets" : [
