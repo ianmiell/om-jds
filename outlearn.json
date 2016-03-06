@@ -11,6 +11,7 @@
         {"page" : "./pages/welcome.md"},
         {"module" : "ianmiell/docker-compose-setup"},
         {"module" : "ianmiell/outlearn-docker-compose-jenkins-slave"},
+        {"module" : "ianmiell/docker-compose-jenkins-slave"},
         {"page" : "./pages/closing.md"}
       ]
     }
