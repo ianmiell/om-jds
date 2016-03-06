@@ -1,4 +1,4 @@
-# Docker Compose and Jenkins-Phoenix
+# Docker Compose with Jenkins
 
 Hi. In this learning module I'm going to teach you about Docker Compose
 
